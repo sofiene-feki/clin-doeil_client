@@ -50,7 +50,7 @@ function App() {
                 style={{ width: "auto", height: "100px" }}
               />
             </div>
-            <div className="loader">skands loadig...</div>
+            <div className="loader">clin-doeil loading...</div>
           </div>
         }
       >
