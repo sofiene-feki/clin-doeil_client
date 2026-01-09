@@ -9,7 +9,7 @@ import {
 import { Link, useLocation } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import logo from "../../assets/bragaoui.png";
-import logoBlack from "../../assets/bragaouiBlack.PNG";
+import logoBlack from "../../assets/bragaouiBlack.png";
 import { openCart } from "../../redux/ui/cartDrawer";
 import CustomDialog from "../ui/Dialog";
 import Search from "./Search";
