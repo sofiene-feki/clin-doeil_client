@@ -257,9 +257,9 @@ export default function CartDrawer() {
               <button
                 onClick={handleCheckoutClick}
                 disabled={items.length === 0}
-                className="flex w-full items-center gap-4 justify-center rounded-md bg-[#87a736] px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-[#87a736] disabled:opacity-50"
+                className="flex w-full items-center gap-4 justify-center  bg-gray-800 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-[#87a736] disabled:opacity-50"
               >
-                <CreditCardIcon className="h-6 w-6" />
+                <CreditCardIcon className="h-6 w-6 animate-pulse" />
                 Passer à la caisse
               </button>
             </Link>
